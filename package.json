@@ -1,7 +1,7 @@
 {
   "name": "passport-oauth2-client-public",
   "version": "0.0.0",
-  "description": "OAuth 2.0 public client authentication strategy for Passport. ",
+  "description": "OAuth 2.0 public client authentication strategy for Passport.",
   "keywords": [
     "passport",
     "oauth",
