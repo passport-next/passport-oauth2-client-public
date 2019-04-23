@@ -1,6 +1,6 @@
 {
-  "name": "passport-oauth2-client-public",
-  "version": "0.0.1",
+  "name": "@passport-next/passport-oauth2-client-public",
+  "version": "1.0.0",
   "description": "OAuth 2.0 public client authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -14,16 +14,15 @@
     "api"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Adam Hathcock",
+    "email": "adam@hathcock.co.uk"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-oauth2-client-public.git"
+    "url": "git://github.com/passport-next/passport-oauth2-client-public.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-oauth2-client-public/issues"
+    "url": "http://github.com/passport-next/passport-oauth2-client-public/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -34,12 +33,12 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "^1.0.0"
+    "@passport-next/passport-strategy": "^1.1.0"
   },
   "devDependencies": {
-    "make-node": "^0.3.0",
-    "mocha": "^2.0.0",
-    "chai": "^3.0.0"
+    "make-node": "0.4.x",
+    "mocha": "5.x.x",
+    "chai": "4.x.x"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
